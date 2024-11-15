@@ -1,0 +1,89 @@
+.app {
+    padding: 50px;
+    -webkit-box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
+
+.app-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(149, 218, 245);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.app-form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+}
+
+.app-form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(149, 218, 245);
+}
+
+.app-content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-content__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-list__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-list__buttons button {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.update {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.container button {
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:black;
+    color:white;
+}
